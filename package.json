@@ -1,0 +1,43 @@
+{
+  "name": "shoclefapi",
+  "version": "1.0.0",
+  "description": "shoclef api ",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://amit_verma_shoclefindia@bitbucket.org/crystal_ding/shoclefapi.git"
+  },
+  "keywords": [
+    "shoclef",
+    "api"
+  ],
+  "author": "Amit verma",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/crystal_ding/shoclefapi#readme",
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "cors": "^2.8.5",
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "money": "^0.2.0",
+    "mongoose": "^5.6.4",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodejs-currency-converter": "^1.0.2",
+    "nodemon": "^1.19.1",
+    "promise-mysql": "^4.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "stripe": "^7.8.0",
+    "swagger-jsdoc": "^3.2.9",
+    "swagger-ui-express": "^4.0.6",
+    "twilio": "^3.33.4",
+    "twilio-video": "^2.0.0-beta12"
+  }
+}
