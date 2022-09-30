@@ -20,7 +20,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/crystal_ding/shoclefapi#readme",
   "dependencies": {
-    "@hapi/joi": "^15.1.0",
+    "@hapi/joi": "^15.1.1",
     "cors": "^2.8.5",
     "dateformat": "^3.0.3",
     "express": "^4.17.1",
